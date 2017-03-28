@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 计划
 
 ### 启动两个线程：server线程 、client 线程
@@ -9,3 +10,6 @@
 * 每个client 线程随机发起proposol
 * 发起proposor的client 同其他 server 进行 basic paxos 交互
 
+=======
+# python_basic_paxos
+>>>>>>> 5d3fef14600548566447afb50bb9ffe0b45ac39d
