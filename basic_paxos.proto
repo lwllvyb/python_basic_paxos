@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.basic_paxos";
+option java_outer_classname = "BasicPaxosProto";
+option objc_class_prefix = "BP";
+
+package basicpaxos;
+
+// The greeting service definition.
+service BasicPaxos {
+  // Sends a greeting
+  rpc acceptor_prepare (AcceptorPrepareRequest) returns (AcceptorPrepareResponse) {}
+  rpc acceptor_accept (AcceptorAcceptRequest) returns (AcceptorAcceptResponse) {}
+}
+
+// The request message .
+message AcceptorPrepareRequest {
+  int32 vote_id = 1;
+}
+
+// The response message
+message AcceptorPrepareResponse {
+  int32 ret_code = 1;
+  int32 accepted_vote_id = 2;
+  string accepted_value = 3;
+}
+
+// The request message .
+message AcceptorAcceptRequest {
+  int32 vote_id = 1;
+  string value = 2;
+}
+
+// The response message
+message AcceptorAcceptResponse {
+  int32 ret_code = 1;
+}

@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Acceptor	server.py	/^class Acceptor(object):$/;"	kind:class	line:182
+G_AB	s.py	/^G_AB = 0$/;"	kind:variable	line:32
+G_AB	server.py	/^G_AB = 0$/;"	kind:variable	line:177
+G_AV	s.py	/^G_AV = None$/;"	kind:variable	line:33
+G_AV	server.py	/^G_AV = None$/;"	kind:variable	line:178
+G_EOK	s.py	/^G_EOK = 0$/;"	kind:variable	line:34
+G_EOK	server.py	/^G_EOK = 0$/;"	kind:variable	line:179
+G_EREJECT	s.py	/^G_EREJECT = 1$/;"	kind:variable	line:35
+G_EREJECT	server.py	/^G_EREJECT = 1$/;"	kind:variable	line:180
+G_PB	s.py	/^G_PB = 0$/;"	kind:variable	line:31
+G_PB	server.py	/^G_PB = 0$/;"	kind:variable	line:176
+Propoer	server.py	/^class Propoer(object):$/;"	kind:class	line:22
+RequestHandler	server.py	/^class RequestHandler(SimpleXMLRPCRequestHandler):$/;"	kind:class	line:12
+SimpleXMLRPCRequestHandler	s.py	/^from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler$/;"	kind:namespace	line:9
+SimpleXMLRPCRequestHandler	server.py	/^from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler$/;"	kind:namespace	line:9
+SimpleXMLRPCServer	s.py	/^from SimpleXMLRPCServer import SimpleXMLRPCServer$/;"	kind:namespace	line:8
+SimpleXMLRPCServer	server.py	/^from SimpleXMLRPCServer import SimpleXMLRPCServer$/;"	kind:namespace	line:8
+Test	client.py	/^class Test(unittest.TestCase):$/;"	kind:class	line:22
+__init__	server.py	/^    def __init__(self):$/;"	kind:member	line:23
+__init__	server.py	/^    def __init__(self, request, client_address, server):$/;"	kind:member	line:16
+accept_response	server.py	/^    def accept_response(self):$/;"	kind:member	line:100
+acceptor_accept	s.py	/^def acceptor_accept(vote_id, value):$/;"	kind:function	line:53
+acceptor_accept	server.py	/^    def acceptor_accept(self, vote_id, value):$/;"	kind:member	line:197
+acceptor_prepare	s.py	/^def acceptor_prepare(vote_id):$/;"	kind:function	line:38
+acceptor_prepare	server.py	/^    def acceptor_prepare(self, vote_id):$/;"	kind:member	line:183
+client.py	client.py	1;"	kind:file	line:1
+connetc_server	server.py	/^    def connetc_server(self):$/;"	kind:member	line:114
+data	client.py	/^    data = [$/;"	kind:variable	line:25
+paxos	server.py	/^    paxos = Paxos()$/;"	kind:variable	line:212
+prepare_response	server.py	/^    def prepare_response(self):$/;"	kind:member	line:67
+s.py	s.py	1;"	kind:file	line:1
+server.py	server.py	1;"	kind:file	line:1
+socket	s.py	/^import socket$/;"	kind:namespace	line:4
+socket	server.py	/^import socket$/;"	kind:namespace	line:4
+start_paxos	server.py	/^    def start_paxos(self, value):$/;"	kind:member	line:139
+start_prepare	server.py	/^    def start_prepare(self, value):$/;"	kind:member	line:48
+start_server	s.py	/^def start_server(ip, port):$/;"	kind:function	line:12
+start_server	server.py	/^def start_server(ip, port):$/;"	kind:function	line:156
+start_server_thread	server.py	/^    def start_server_thread(self):$/;"	kind:member	line:149
+test_urlify	client.py	/^    def test_urlify(self):$/;"	kind:member	line:30
+threading	s.py	/^import threading$/;"	kind:namespace	line:5
+threading	server.py	/^import threading$/;"	kind:namespace	line:5
+time	s.py	/^import time$/;"	kind:namespace	line:6
+time	server.py	/^import time$/;"	kind:namespace	line:6
+unittest	client.py	/^import unittest$/;"	kind:namespace	line:2
+urlify	client.py	/^def urlify(string, length):$/;"	kind:function	line:5
+xmlrpclib	s.py	/^import xmlrpclib$/;"	kind:namespace	line:3
+xmlrpclib	server.py	/^import xmlrpclib$/;"	kind:namespace	line:3
